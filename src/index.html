@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yazu.dev - personal portfolio website</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="./custom.css" rel="stylesheet">
+</head>
+<body class="bg-black text-mainColor">
+  <div class="bg-black w-full items-center justify-center">
+      <div class="w-full bg-mainColor text-left border-1 border-white p-0 m-0">
+        <h1 class="text-9xl text-black p-0 m-0">>yazu.dev<span id="underscore">_</span></h1><br>
+      </div>
+      <div class="w-full text-3xl">
+        <p>i work on projects that <b>make sense to me. no cash grabs, no cash cows.</b> i try to learn and do projects that help solve a real business or humane problem.</p>
+        <p>get in touch: george.yzvk@gmail.com</p>
+      </div>
+  </div>
+  <br>
+  <span>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</span>
+  <div class="text-2xl w-full">
+      <p>my personal projects:</p><br>
+      <div class="flex flex-col xl:flex-row flex-wrap">
+        <div class="xl:w-1/3">
+          <h1>league voice</h1>
+          <p>a seemless voice chat for league of legends players. the built-in functionality of league of legends only permits voice chat for people already in a pre-made party. i am enabling the voice chat for everyone who has opened my app/website. this improves the communication, giving better chances of winning the match and climbing ranks.</p>
+          <a href="">will be live soon</a>
+        </div><br>
+      </div>
+  </div><br>
+  <span>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</span>
+  <div class="w-full text-2xl">
+    <p>my career so far:</p>
+    <ul>
+      <li>> keen on computers since childhood</li>
+      <li>> informatics teacher shows me 🍋<a href="https://softuni.bg/">the best software academy in bulgaria</a></li>
+      <li>> learn and pass <a href="#">java courses of said academy</a></li>
+      <li>> make my first website with basic crud operations</li>
+      <li>> go to uni 🍋<a href="https://www.aubg.edu/">(american university in bulgaria)</a></li>
+      <li>> study computer science</li>
+      <li>> university-dont-teach-useful-things.exe</li>
+      <li>> get internship 🍋<a href="https://www.programista.bg/">@programista</a>, go to the usa, get back, drop uni</li>
+      <li>> get software developer job at 🍋<a href="https://limechain.tech/">@limechain</a></li>
+      <li>> learn tons of blockchain and crypto technologies</li>
+      <li>> write tons of java and golang code for the <u>ethereum and hedera ecosystems</u></li>
+      <li>> write tons of smart contracts</li>
+      <li>> get exposed to trading crypto</li>
+      <li>> i-can-get-rich.exe</li>
+      <li>> leave high paying blockchain job to pursue algorithmic trading and becoming a millionaire</li>
+      <li>> skip to 2024. no money, no job, but a few almost working strategies. we are close</li>
+      <li>> "i want to manage projects"</li>
+      <li>> study a ton of project management</li>
+      <li>> "now i know all about scrum, agile, people management, task and resource management, stakeholder theory"</li>
+      <li>> unstoppable.exe</li>
+      <li>> take on a project coordinator job 🍋<a href="https://www.akkodis.com/">@akkodis</a> as a contractor for 🍋<a href="https://www.hp.com/us-en/home.html">HP inc.</a></li>
+      <li>6 months later ...</li>
+      <li>> they are closing the position, have to look for a new opening</li>
+      <li>> suddenly get an urge to code again</li>
+      <li>> "what problem do i struggle with right now?"</li>
+      <li>> "league of legends communication is non-existent! LET'S MAKE A SEEMLESS VOICE CHAT FOR GAMES"</li>
+      <li>> work on the voice chat application day and night for all autumn and winter of 2024</li>
+      <li>.... new update loading ....</li>
+    </ul>
+  </div>
+  <script>
+    const span = document.getElementById("underscore");
+
+    // Define a list of colors
+    const colors = ["#4AF626", "black"];
+
+    // Initialize color index
+    let colorIndex = 0;
+
+    // Function to change the color
+    function changeColor() {
+      span.style.color = colors[colorIndex]; // Set the color
+      colorIndex = (colorIndex + 1) % colors.length; // Loop through colors
+    }
+
+    // Change color every second
+    setInterval(changeColor, 500);
+  </script>
+</body>
+</html>
